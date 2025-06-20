@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kumar Mayank | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Animation Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section id="hero" data-aos="fade-in">
+    <h1>Hi, I'm Kumar Mayank</h1>
+    <p>Developer | Problem Solver | Tech Explorer</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I’m a developer skilled in systems programming, data engineering, and web development. I build robust and scalable software solutions.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" data-aos="fade-right">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python (Pandas, NumPy, Selenium, Streamlit, Flask)</li>
+      <li>C/C++ (CUDA, pthreads, Open MPI)</li>
+      <li>Java, SML/NJ, VHDL, Arduino</li>
+      <li>Flask, Bots (MS Teams & Telegram), HTML</li>
+      <li>SQL, MongoDB, ElasticSearch, Qdrant</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" data-aos="zoom-in">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Movie Review Sentiment Analyzer</h3>
+      <p>Python-Tkinter app using TextBlob to analyze review sentiment.</p>
+    </div>
+    <!-- Add more projects here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- AOS Script -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
